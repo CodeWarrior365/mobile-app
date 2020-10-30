@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawerlayout">
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationdrawer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            app:itemTextColor="#000"
+            app:itemIconTint="#800000"
+
+            app:menu="@menu/menunav"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/activity_drawertop">
+
+        </com.google.android.material.navigation.NavigationView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:background="@drawable/gradient_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="8">
+
+
+                <Button
+                    android:onClick="surgicalpag"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:text="surgical equipment"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:textSize="25sp"
+                    android:background="@drawable/surgical"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="10dp"
+                    />
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:text="ophalmology equipment"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:textSize="25sp"
+                    android:background="@drawable/opthalmology"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:text="medical equipment"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:textSize="25sp"
+                    android:background="@drawable/medical"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:text="obs &amp; gyn equipment"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:textSize="25sp"
+                    android:background="@drawable/obsgyn"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="10dp"/>
+
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    android:text="intensive care unit equipment"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="bottom"
+                    android:textSize="25sp"
+                    android:background="@drawable/intensive"
+                    android:textColor="#ffffff"
+                    android:layout_marginBottom="10dp"/>
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+
+</LinearLayout>

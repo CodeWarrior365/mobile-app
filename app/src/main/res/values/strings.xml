@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InstruMed</string>
+    <string name="homename">Home</string>
+    <string name="aboutme">About</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
