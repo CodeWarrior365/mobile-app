@@ -51,6 +51,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent a=new Intent(this,surgicalpage.class);
         startActivity(a);
     }
+    public void opthalmologypag (View view)
+    {
+        Intent a=new Intent(this,opthalmologypage.class);
+        startActivity(a);
+    }
+    public void medicalpag (View view)
+    {
+        Intent a=new Intent(this,medicalpage.class);
+        startActivity(a);
+    }
+    public void obspag (View view)
+    {
+        Intent a=new Intent(this,obspage.class);
+        startActivity(a);
+    }
+
+
 
 
     @Override
@@ -72,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (item.getItemId()){
 
             case R.id.home:
-                Intent intent=new Intent(MainActivity.this,MainActivity.class);
+
                 break;
             case R.id.share:
                 try {
@@ -98,8 +115,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
                 break;
             case R.id.about:
-                Intent aboutintent=new Intent(MainActivity.this,About.class);
-                startActivity(aboutintent);
+                startActivity(new Intent(MainActivity.this,About.class));
                 break;
         }
         drawerLayout.closeDrawer(GravityCompat.START);

@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:id="@+id/drawer_layout">
 
     <androidx.drawerlayout.widget.DrawerLayout
         android:layout_width="match_parent"
@@ -43,7 +44,7 @@
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="195dp"
-                    android:text="surgical equipment"
+                    android:text=" surgical equipment"
                     android:fontFamily="sans-serif-black"
                     android:layout_marginTop="5dp"
                     android:layout_gravity="center"
@@ -54,10 +55,11 @@
                     android:layout_marginBottom="10dp"
                     />
                 <Button
+                    android:onClick="opthalmologypag"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="195dp"
-                    android:text="ophalmology equipment"
+                    android:text=" opthalmology equipment"
                     android:fontFamily="sans-serif-black"
                     android:layout_marginTop="5dp"
                     android:layout_gravity="center"
@@ -68,10 +70,11 @@
                     android:layout_marginBottom="10dp"/>
 
                 <Button
+                    android:onClick="medicalpag"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="195dp"
-                    android:text="medical equipment"
+                    android:text=" medical equipment"
                     android:fontFamily="sans-serif-black"
                     android:layout_marginTop="5dp"
                     android:layout_gravity="center"
@@ -82,10 +85,11 @@
                     android:layout_marginBottom="10dp"/>
 
                 <Button
+                    android:onClick="obspag"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="195dp"
-                    android:text="obs &amp; gyn equipment"
+                    android:text=" obs &amp; gyn equipment"
                     android:fontFamily="sans-serif-black"
                     android:layout_marginTop="5dp"
                     android:layout_gravity="center"
@@ -100,12 +104,12 @@
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="195dp"
-                    android:text="intensive care unit equipment"
+                    android:text=" intensive care unit equipment"
                     android:fontFamily="sans-serif-black"
                     android:layout_marginTop="5dp"
                     android:layout_gravity="center"
                     android:gravity="bottom"
-                    android:textSize="25sp"
+                    android:textSize="23sp"
                     android:background="@drawable/intensive"
                     android:textColor="#ffffff"
                     android:layout_marginBottom="10dp"/>

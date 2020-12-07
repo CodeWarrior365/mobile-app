@@ -9,10 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".surgicalpage" android:label="Surgical Equipment"></activity>
-        <activity
-            android:name=".About"
-            android:label="@string/aboutme" />
+        <activity android:name=".surgicalretracting" android:label="Retracting Equipment"></activity>
+        <activity android:name=".surgicalgrasping" android:label="Grasping Equipment"/>
+        <activity android:name=".surgicalclamping" android:label="Clamping Equipment" />
+        <activity android:name=".surgicalcutting" android:label="Cutting Equipment" />
+        <activity android:name=".obspage" android:label="Obs &amp; Gyn Equipment " />
+        <activity android:name=".medicalpage" android:label="Medical Equipment" />
+        <activity android:name=".opthalmologypage" android:label="Opthalmology Equipment" />
+        <activity android:name=".surgicalpage" android:label="Surgical Equipment" />
+        <activity android:name=".About" android:label="@string/aboutme" />
         <activity android:name=".drawertop" />
         <activity android:name=".splash">
             <intent-filter>

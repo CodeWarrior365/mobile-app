@@ -6,4 +6,30 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
 
+    <string name="clampingburlisher"> Is used to clamp deep blood vessels. Burlishers have two closed finger rings. Burlishers with an open finger ring are called tonsil hemotats.Other names: Schnidt tonsil forced, adson forded.</string>
+    <string name="clampinghemoclip"> Applier with hemoclips applies metal clips into blood vessels and ducts which will remain occluded.</string>
+    <string name="clampingkelly">Is used to clamp larger vessels and tissue. Other names:Rochester Pean.</string>
+    <string name="clampingmosquito">Is used to clamp small blood vassels.Its jaws may be straight or curved.</string>
+    <string name="clampingrightangle">Is used to clamp hard-to reach a vessels and to place sutures behind or aroud a vessel. A right angle with a suture attached is called a "tie on a passer". Other names: Mixter.</string>
+
+    <string name="graspingone">Are either smooth: used to grasp delicate tissue; or with teeth: used to grasp the skin. Other names: Dura forceps.</string>
+    <string name="graspingtwo">Is used to grasp tissue. A "Judd-Allis" holds intestinal tissue; a "heavy allis" holds breast tissue.</string>
+    <string name="graspingthree">aaIs used to grasp delicate tissue (intestine, fallopian tube, ovary) </string>
+    <string name="graspingfour">Is use to hold towels and drapes in place. Other name:Towel clip</string>
+    <string name="graspingfive">Are used to grasp delicate tissue, particularly in cardiovascular surgery</string>
+    <string name="graspingsix">Is used to hold a peanut.</string>
+    <string name="graspingseven">Is used to grasp heavy tissue. May also be used as a clamp. The jaws may be straight or curved. Other names: Ochsner.</string>
+    <string name="graspingeight">Are used to hold needles when suturing.</string>
+    <string name="graspingnine">Are used to grasp tissue</string>
+    <string name="graspingten">Are used to grasp tough tissue (fascia,breast) forces may either have many teeth or single tooth. Single tooth forces are also called "rat tooth forces". Single tooth forces, many forces (top to bottom).</string>
+
+    <string name="retractingone">Is use to retract shallow or superficial incisions. Other names: USA, US Army.</string>
+    <string name="retractingtwo">Is used retract wound edges during deep abdominal procedures.</string>
+    <string name="retractingthree">Is used to retract deep abdominal or chest incisions.Available in various widths.</string>
+    <string name="retractingfour">Is used to retract shallow incisions.</string>
+    <string name="retractingfive">Is used to retract shallow or superficial incisions.</string>
+    <string name="retractingsix">Is used to retract deep wounds. May be bent to various shapes</string>
+    <string name="retractingseven">Is used to retract deep abdominal or chest incisions.</string>
+    <string name="retractingeight">Is used to retract shallow incisions.</string>
+
 </resources>
