@@ -32,4 +32,12 @@
     <string name="retractingseven">Is used to retract deep abdominal or chest incisions.</string>
     <string name="retractingeight">Is used to retract shallow incisions.</string>
 
+    <string name="medicalone">For patients who are unconscious or too weak to sit up or walk to the toilet to defecate</string>
+    <string name="medicaltwo">To create a permanent pathway to a vein (or artery) for the porpuse of repeated injections or infusion of intravenous fluids</string>
+    <string name="medicalthree">To drain and collect urine directly from the bladder (primary use); also to act as a makeshift oxygen tube, etc. </string>
+    <string name="medicalfour">To correct arrhythmias of the heart or to start up a heart that is not beating</string>
+    <string name="medicalfive">To remove toxic material from the blood that are generally removed by the kidneys; used in case of renal failure</string>
+
+
+
 </resources>
